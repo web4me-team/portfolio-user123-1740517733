@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartoon Style Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Cartoon" alt="Cartoon Avatar" width="100">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Rena Wu">Rena Wu</h1>
+          <p class="title">Computer Science Major</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+        </button>
+      </div>
+      <div class="sidebar-info_more" data-sidebar-more>
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:ruiwu22@gmail.com" class="contact-link">ruiwu22@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+16265286786" class="contact-link">(626) 528 - 6786</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>California, USA</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <i class="fab fa-linkedin"></i> 
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <i class="fab fa-researchgate"></i> 
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <i class="fab fa-google"></i> 
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <h2>👋 Hi, I'm Rena Wu</h2>
+          <p>I am a Computer Science major with a cumulative GPA of 4.0. Experienced in data collection and analysis, development of mini programs, tutoring, and volunteering in educational settings.</p>
+          <p>My research interests include:</p>
+          <ul>
+            
+          </ul>
+          <h2>🔬 My Research Focus</h2>
+          <ul>
+            
+          </ul>
+          <p>When I’m not coding, you might find me exploring new technologies or contributing to open-source projects.</p>
+          <p class="contact">📧 Want to discuss coding, tech projects, or collaborate on innovative solutions? Let’s connect! 🚀</p>
+        </section>
+      </article>
+
+      <article class="education" data-page="education">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="book-outline"></ion-icon> Education
+          </h2>
+        </header>
+        <section class="timeline">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Pasadena City College</h4>
+              <span>Fall 2019</span>
+              <p class="timeline-text">Major: Computer Science</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">University of California, San Diego</h4>
+              <span>Expected Graduate year: 2024</span>
+              <p class="timeline-text">Computer Science</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="research" data-page="research">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="flask-outline"></ion-icon> Research
+          </h2>
+        </header>
+        <section class="timeline">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Elite round launched by Shimmer SDGs Hub</h4>
+              <span>04 / 2020 - 09 / 2020</span>
+              <p class="timeline-text">Projects: Data collection and analysis, Write research report, Evaluate business plan</p>
+              <p class="timeline-text">Techniques: Weekly zoom meetings, Data analysis, Business plan evaluation</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Aid Tracker</h4>
+              <span>05 / 2020 - 10 / 2020</span>
+              <p class="timeline-text">Projects: Develop mini program 'Aid Tracker', Debug program, Open source code on Github</p>
+              <p class="timeline-text">Techniques: Taro (React), Debugging, Version control</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Nobel Education Center</h4>
+              <span>11 / 2019 - 04 / 2020</span>
+              <p class="timeline-text">Projects: Tutoring AP Calculus and AP Computer Science students, Provide feedback to students, Communicate with parents</p>
+              <p class="timeline-text">Techniques: Tutoring, Feedback provision, Communication</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Field Elementary School</h4>
+              <span></span>
+              <p class="timeline-text">Projects: Volunteered as teacher assistant, Helped in grading homework, Organized class</p>
+              <p class="timeline-text">Techniques: Teaching assistance, Homework grading, Class organization</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="publications" data-page="publications">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="document-text-outline"></ion-icon> Publications
+          </h2>
+        </header>
+        <section class="timeline">
+          <ol class="timeline-list">
+            
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    'use strict';
+
+    // Toggle sidebar contacts
+    const sidebar = document.querySelector("[data-sidebar]");
+    const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+    const sidebarMore = document.querySelector("[data-sidebar-more]");
+
+    sidebarBtn.addEventListener("click", function () {
+      sidebarMore.classList.toggle("active");
+      sidebarBtn.querySelector("span").textContent = sidebarMore.classList.contains("active") ? "Hide Contacts" : "Show Contacts";
+    });
+
+    // Handle navigation links
+    const navigationLinks = document.querySelectorAll("[data-nav-link]");
+    const pages = document.querySelectorAll("[data-page]");
+
+    navigationLinks.forEach((link) => {
+      link.addEventListener("click", function () {
+        navigationLinks.forEach(navLink => navLink.classList.remove("active"));
+        this.classList.add("active");
+
+        const pageName = this.textContent.toLowerCase().trim();
+        pages.forEach(page => page.classList.remove("active"));
+        const targetPage = document.querySelector(`[data-page="${pageName}"]`);
+        if (targetPage) {
+          targetPage.classList.add("active");
+          window.scrollTo(0, 0);
+        }
+      });
+    });
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
